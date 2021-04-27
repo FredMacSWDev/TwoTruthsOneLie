@@ -1,0 +1,59 @@
+.wrapper {
+    margin: 5px;
+}
+
+#main-content {
+    background-color: grey;
+    /* border-style: solid;
+    border-width: 5px;
+    border-radius: 25px; */
+    border: solid black thick;
+    border-radius: 25px;
+    background-color: grey;
+    padding-left: 10px;
+}
+
+.factoid {
+    border: plum 2px dashed;
+    border-radius: 15px;
+    margin: 15px;
+    background-color: lightgray;
+    text-align: center;
+    /* display: inline-block; */
+}
+
+p {
+    color: red;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+    padding: 2%;
+}
+
+h1 {
+    text-align: center;
+    color: lightgreen;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    text-shadow: 0 0 3px black, 0 0 5px grey;
+}
+
+h3 {
+    color: blue;
+    font-family: "Trebuchet MS";
+    font-style: italic;
+    padding: 2%;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+}
+
+.img-coding {
+    height: 5rem;
+    position: fixed;
+    top: 10px;
+    left: 5%;
+}
+
+body {
+    background-image: linear-gradient(rgb(159, 198, 248), rgb(216, 216, 195));
+}
